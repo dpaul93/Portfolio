@@ -53,8 +53,11 @@ nav a {
 }
 
 .hero-banner {
-  padding: 60px;
-  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 80px;
   background: blue;
   color: white;
   font-size: 30px;
