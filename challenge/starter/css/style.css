@@ -26,4 +26,36 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: rgb(146, 204, 206);
+  padding: 20px
+}
+
+h1 {
+  font-size: 48px;
+  color: slategray;
+  background-color: lightblue;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+nav {
+display: flex;
+justify-content: flex-end;
+}
+
+nav a {
+  display: flex;
+  color: slategray;
+  border-bottom: solid;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero-banner {
+  padding: 60px;
+  text-align: right;
+  background: blue;
+  color: white;
+  font-size: 30px;
 }
