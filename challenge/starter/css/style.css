@@ -22,15 +22,15 @@ p {
   margin: 0;
 }
 
-header {
+.menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(146, 204, 206);
-  padding: 20px
+  padding: 60px;
 }
 
-h1 {
+.menu h1 {
   font-size: 48px;
   color: slategray;
   background-color: lightblue;
@@ -38,12 +38,12 @@ h1 {
   padding-right: 20px;
 }
 
-nav {
+.menu nav {
 display: flex;
 justify-content: flex-end;
 }
 
-nav a {
+.menu li {
   display: flex;
   color: slategray;
   border-bottom: solid;
@@ -53,12 +53,32 @@ nav a {
 }
 
 .hero-banner {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
   padding: 80px;
-  background: blue;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: 700px;
   color: white;
   font-size: 30px;
+}
+
+.hero-banner h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-me h2 {
+  display: flex;
+  border-right: solid;
+  text-align: justify;
 }
