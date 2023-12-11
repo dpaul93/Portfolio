@@ -53,18 +53,21 @@ justify-content: flex-end;
 }
 
 .hero-banner {
-  padding: 80px;
   background-image: url("../images/02-hero-bg.jpg");
-  background-size: 700px;
-  color: white;
-  font-size: 30px;
+  background-size: cover;
+  height: 350px;
+  position: relative;
 }
 
 .hero-banner h1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: flex-end;
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+  font-size: 60px;
+  color: aqua;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
 .page-wrapper {
