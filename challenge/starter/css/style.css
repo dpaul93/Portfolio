@@ -33,7 +33,7 @@ p {
 .menu h1 {
   font-size: 48px;
   color: slategray;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   padding-left: 50px;
   padding-right: 20px;
 }
@@ -54,9 +54,9 @@ justify-content: flex-end;
 
 .hero-banner {
   display: flex;
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("../images/A380.png");
   background-size: cover;
-  height: 350px;
+  height: 465px;
   position: relative;
 }
 
@@ -65,8 +65,8 @@ justify-content: flex-end;
   right: 50px;
   bottom: 20px;
   font-size: 60px;
-  color: aqua;
-  background-color: black;
+  color: cadetblue;
+  /* background-color: rgb(52, 59, 59); */
   padding-left: 10px;
   padding-right: 20px;
 }
@@ -169,8 +169,9 @@ justify-content: flex-end;
 
 .title {
   text-align: center;
-  border-right: 5px solid black;
+  border-right: solid cadetblue;
   border-width: 10px;
+  color: cadetblue;
 }
 
 #work-header {
@@ -187,7 +188,9 @@ justify-content: flex-end;
   margin-left: 5.5px;
   margin-right: 150px;
   text-align: justify;
-  font-size: 20px;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:cadetblue;
 }
 
 .section-content {
@@ -204,6 +207,8 @@ justify-content: flex-end;
   display: flex;
   justify-content: space-between;
   margin-right: 150px;
+  font-size: 35px;
+  color: cadetblue;
 }
 
 #portfolio-cont {
@@ -211,7 +216,7 @@ justify-content: flex-end;
   flex-wrap: wrap;
   position: relative;
   padding: 20px;
-  border: solid rgb(182, 120, 40);
+  border: solid cadetblue;
   margin-right: 140px;
 }
 
