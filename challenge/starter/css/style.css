@@ -92,14 +92,70 @@ justify-content: flex-end;
   grid-template-rows: 1fr 300px 300px 300px 300px 1fr;
   grid-template-columns: 1fr 2fr 2fr;
   grid-template-areas: 
-  "about-me about-me-blurb about-me-blurb"
-  "work-header work-1 work-1"
-  "work-header work-1 work-1"
-  "work-header work-2 work-3"
-  "work-header work-4 work-5"
+      "about-me about-me-blurb about-me-blurb"
+      "work-header work-1 work-1"
+      "work-header work-1 work-1"
+      "work-header work-2 work-3"
+      "work-header work-4 work-5"
+      "contact contact-contact contact-contact";
 }
 
 #about-me {
   grid-area: about-me;
   border-right: 5px solid darkblue;
+}
+
+#about-me-blurb {
+  grid-template-columns: about-me-blub;
+  margin: 15px;
+}
+
+.work {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  display: grid;
+  align-content: end;
+}
+
+#work-1 {
+  grid-area: work-1;
+  background-image: url("/images/02-portfolio-1.jpg");
+}
+
+#work-2 {
+  grid-area: work-2;
+  background-image: url("/images/02-portfolio-2.jpg");
+}
+
+#work-3 {
+  grid-area: work-3;
+  background-image: url("/images/02-portfolio-3.jpg");
+}
+
+#work-4 {
+  grid-area: work-4;
+  background-image: url("/images/02-portfolio-4.jpg");
+}
+
+#work-5 {
+  grid-area: work-5;
+  background-image: url("/images/02-run-buddy.jpg");
+}
+
+#contact {
+  background-position: bottom;
+  background-size: cover;
+  margin: 5px;
+  display: grid;
+  align-content: baseline;
+}
+
+#contact-contact {
+  background-position: bottom;
+  background-size: cover;
+  margin: 5px;
+  display: grid;
+  align-content: baseline;
 }
