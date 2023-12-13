@@ -55,7 +55,7 @@ justify-content: flex-end;
 .hero-banner {
   display: flex;
   background-image: url("../images/A380.png");
-  background-size: cover;
+  background-size:contain;
   height: 465px;
   position: relative;
 }
